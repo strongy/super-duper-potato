@@ -1,0 +1,13 @@
+176.58.100.37
+199.36.75.107
+208.111.150.25
+213.203.209.152
+96.46.1.236
+contmsoaesxm.bandit.fox-magic.co.uk
+contmsoaesxm.local
+goodbase.biz
+iadsdk.apple.com
+log-ingestion-eu.samsungacr.com
+wpad.bandit.fox-magic.co.uk
+wpad.home.marsh1.net
+wpad.local
