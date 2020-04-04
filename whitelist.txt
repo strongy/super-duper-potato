@@ -1,4 +1,4 @@
-enmasse.com
+analytics.gameforge.de
 analytics.google.com
 attestation.xboxlive.com
 aurora-server.com
@@ -12,6 +12,8 @@ def-vef.xboxlive.com
 device.auth.xboxlive.com
 ecp.yusercontent.com
 eds.xboxlive.com
+enmasse.com
+fox-magic.co.uk
 help.ui.xboxlive.com
 home.marsh1.net
 hosts-file.net
@@ -34,6 +36,7 @@ stats.pusher.com
 sysctl.org
 title.auth.xboxlive.com
 title.mgt.xboxlive.com
+tracking.gameforge.de
 v10.events.data.microsoft.com
 v10.vortex-win.data.microsoft.com
 www.googleadservices.com
