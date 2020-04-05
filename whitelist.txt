@@ -12,6 +12,7 @@ def-vef.xboxlive.com
 device.auth.xboxlive.com
 ecp.yusercontent.com
 eds.xboxlive.com
+enmasse.com
 fox-magic.co.uk
 help.ui.xboxlive.com
 home.marsh1.net
@@ -46,4 +47,3 @@ xboxexperiencesprod.experimentation.xboxlive.com
 xflight.xboxlive.com
 xkms.xboxlive.com
 xsts.auth.xboxlive.com
-enmasse.com
