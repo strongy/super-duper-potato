@@ -1,3 +1,88 @@
+s3.amazonaws.com
+s3-1.amazonaws.com # CNAME for (s3.amazonaws.com)
+.github.com
+.githubusercontent.com
+github.map.fastly.net # CNAME for (raw.githubusercontent.com)
+.gitlab.com
+.apple.com
+.sourceforge.net
+.fls-na.amazon.com # alexa
+.control.kochava.com # alexa 2
+.device-metrics-us-2.amazon.com # alexa 3
+.secure-gl.imrworldwide.com # amazon app 3
+.pixel.adsafeprotected.com # amazon app 4
+.anycast.pixel.adsafeprotected.com # CNAME for (pixel.adsafeprotected.com)
+.bs.serving-sys.com # amazon app 5
+.bs.eyeblaster.akadns.net # CNAME for (bs.serving-sys.com)
+.bsla.eyeblaster.akadns.net # CNAME for (bs.serving-sys.com)
+.adsafeprotected.com
+.anycast.static.adsafeprotected.com # CNAME for (static.adsafeprotected.com)
+google.com
+www.google.com
+youtube.com
+www.youtube.com
+youtube-ui.l.google.com # CNAME for (youtube.com)
+stackoverflow.com
+www.stackoverflow.com
+dropbox.com
+www.dropbox.com
+www.dropbox-dns.com # CNAME for (dropbox.com)
+control.kochava.com
+secure-gl.imrworldwide.com
+pbs.twimg.com # twitter images
+www.pbs.twimg.com # twitter images
+cs196.wac.edgecastcdn.net # CNAME for (pbs.twimg.com)
+cs2-wac.apr-8315.edgecastdns.net # CNAME for (pbs.twimg.com)
+cs2-wac-us.8315.ecdns.net # CNAME for (pbs.twimg.com)
+cs45.wac.edgecastcdn.net # CNAME for (pbs.twimg.com)
+.mobile.pipe.aria.microsoft.com
+.mobile.events.data.trafficmanager.net # CNAME for (mobile.pipe.aria.microsoft.com)
+.skypedataprdcolwus04.cloudapp.net # CNAME for (mobile.pipe.aria.microsoft.com)
+.telemetry.dropbox.com
+.telemetry.v.dropbox.com # CNAME for (telemetry.dropbox.com)
+.incoming.telemetry.mozilla.org
+.telemetry-incoming.r53-2.services.mozilla.com # CNAME for (incoming.telemetry.mozilla.org)
+.pipeline-incoming-prod-elb-149169523.us-west-2.elb.amazonaws.com # CNAME for (incoming.telemetry.mozilla.org)
+.google-analytics.com
+.www-google-analytics.l.google.com # CNAME for (google-analytics.com)
+.watson.telemetry.microsoft.com
+.umwatson.trafficmanager.net # CNAME for (watson.telemetry.microsoft.com)
+.stats.g.doubleclick.net
+.stats.l.doubleclick.net # CNAME for (stats.g.doubleclick.net)
+.cdp.cloud.unity3d.com
+.prd-lender.cdp.internal.unity3d.com # CNAME for (cdp.cloud.unity3d.com)
+.thind-prd-knob.data.ie.unity3d.com # CNAME for (cdp.cloud.unity3d.com)
+.thind-gke-usc.prd.data.corp.unity3d.com # CNAME for (cdp.cloud.unity3d.com)
+.config.uca.cloud.unity3d.com
+.remote-config-proxy-prd.uca.cloud.unity3d.com # CNAME for (config.uca.cloud.unity3d.com)
+.settings-win.data.microsoft.com
+.settingsfd-geo.trafficmanager.net # CNAME for (settings-win.data.microsoft.com)
+.analytics.ff.avast.com
+.analytics.ns1.ff.avast.com # CNAME for (analytics.ff.avast.com)
+.perf-events.cloud.unity3d.com
+.ipm-provider.ff.avast.com
+.ipm-provider.ns1.ff.avast.com # CNAME for (ipm-provider.ff.avast.com)
+.crashlytics.com
+.sanalytics.disneyplus.com
+.disneyplus.com.ssl.sc.omtrdc.net # CNAME for (sanalytics.disneyplus.com)
+.doubleclick.net
+.graph.instagram.com
+.instagram.c10r.facebook.com # CNAME for (graph.instagram.com)
+.cdninstagram.com
+www.googleadservices.com
+www.msftncsi.com
+www.xboxlive.com
+xbox.ipv6.microsoft.com
+xboxexperiencesprod.experimentation.xboxlive.com
+xflight.xboxlive.com
+xkms.xboxlive.com
+xsts.auth.xboxlive.com
+ssl.clickbank.net
+stats.pusher.com
+sysctl.org
+title.auth.xboxlive.com
+title.mgt.xboxlive.com
+tracking.gameforge.de
 analytics.gameforge.de
 analytics.google.com
 attestation.xboxlive.com
@@ -30,20 +115,3 @@ raw.githubusercontent.com
 s3.amazonaws.com
 server.home.marsh1.net
 server.marsh1.net
-settings-win.data.microsoft.com
-ssl.clickbank.net
-stats.pusher.com
-sysctl.org
-title.auth.xboxlive.com
-title.mgt.xboxlive.com
-tracking.gameforge.de
-v10.events.data.microsoft.com
-v10.vortex-win.data.microsoft.com
-www.googleadservices.com
-www.msftncsi.com
-www.xboxlive.com
-xbox.ipv6.microsoft.com
-xboxexperiencesprod.experimentation.xboxlive.com
-xflight.xboxlive.com
-xkms.xboxlive.com
-xsts.auth.xboxlive.com
