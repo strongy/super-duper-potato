@@ -90,7 +90,6 @@ echo ">> Setting up crontab..."
 (crontab -l 2>/dev/null; echo "0 3 * * * /root/renew.sh") | crontab -
 
 echo ">> Starting Docker containers..."
-cd /home/peter
 su - peter -c "cd /home/peter && docker compose up -d"
 
 echo ""
