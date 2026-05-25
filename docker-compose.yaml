@@ -1,0 +1,55 @@
+services:
+
+  adguard:
+    container_name: adguard
+    hostname: adguard
+    image: imthai/adguardhome-unbound-redis
+    restart: unless-stopped
+    network_mode: "host"
+    environment:
+      - TZ=Europe/London
+    volumes:
+      - /mnt/usb/adguard/config:/config:rw
+      - /mnt/usb/adguard/sysctl.conf:/etc/sysctl.conf:rw
+
+  portainer:
+    container_name: portainer
+    hostname: adrian_portainer
+    image: portainer/portainer-ce:latest
+    restart: always
+    ipc: private
+    command: '--tlscert /data/certs/fullchain.pem --tlskey /data/certs/privkey.pem'
+    networks:
+      - peter_adguard
+    ports:
+      - 8000:8000/tcp
+      - 9443:9443/tcp
+    environment:
+      - TZ=Europe/London
+    volumes:
+      - /mnt/usb/portainer/data/:/data/:rw
+      - /var/run/docker.sock:/var/run/docker.sock:rw
+    security_opt:
+      - no-new-privileges:true
+
+  dozzle:
+    hostname: adrian_dozzle
+    container_name: dozzle
+    image: amir20/dozzle:latest
+    command: agent
+    restart: unless-stopped
+    networks:
+      - peter_adguard
+    ports:
+      - 7007:7007/tcp
+    environment:
+      - TZ=Europe/London
+      - PUID=1000
+      - PGID=65534
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    security_opt:
+      - no-new-privileges:true
+
+networks:
+  peter_adguard:
