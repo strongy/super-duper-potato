@@ -91,7 +91,7 @@ echo ">> Setting up crontab..."
 
 echo ">> Starting Docker containers..."
 cd /home/peter
-docker compose up -d
+su - peter -c "cd /home/peter && docker compose up -d"
 
 echo ""
 echo "================================"
