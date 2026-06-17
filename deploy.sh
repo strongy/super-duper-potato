@@ -51,7 +51,7 @@ curl -fsSL "$REPO/renew-test.sh" -o /root/renew-test.sh
 curl -fsSL "$REPO/sys-update.sh" -o /root/sys-update.sh
 curl -fsSL "$REPO/update.sh" -o /home/peter/update.sh
 curl -fsSL "$REPO/clean.sh" -o /root/clean.sh
-chmod +x /root/combine-ssl.sh /root/renew.sh /root/renew-test.sh /root/sys-update.sh /root/clean.sh  /root/update.sh
+chmod +x /root/combine-ssl.sh /root/renew.sh /root/renew-test.sh /root/sys-update.sh /root/clean.sh  /home/peter/update.sh
 
 echo ">> Generating password hash..."
 AGHASH=$(htpasswd -bnBC 10 "" "$AGPASSWORD" | tr -d ':\n' | sed 's/$2y/$2a/')
