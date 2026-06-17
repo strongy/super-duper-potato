@@ -49,7 +49,7 @@ curl -fsSL "$REPO/combine-ssl.sh" -o /root/combine-ssl.sh
 curl -fsSL "$REPO/renew.sh" -o /root/renew.sh
 curl -fsSL "$REPO/renew-test.sh" -o /root/renew-test.sh
 curl -fsSL "$REPO/sys-update.sh" -o /root/sys-update.sh
-curl -fsSL "$REPO/clean.sh" -o /root/update.sh
+curl -fsSL "$REPO/update.sh" -o /home/peter/update.sh
 curl -fsSL "$REPO/clean.sh" -o /root/clean.sh
 chmod +x /root/combine-ssl.sh /root/renew.sh /root/renew-test.sh /root/sys-update.sh /root/clean.sh  /root/update.sh
 
